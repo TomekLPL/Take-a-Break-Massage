@@ -1,0 +1,140 @@
+@media (min-width: 768px) {
+	.header {
+		background-image: u.$hero-gradient, url('/src/img/takeHeader.jpg');
+
+		&__heading {
+			img {
+				width: 54rem;
+			}
+
+			.lower-title {
+				margin-top: -1.8rem;
+				font-size: 2.8rem;
+			}
+		}
+	}
+	.section-heading {
+		font-size: 3.2rem;
+	}
+
+	.section-padding {
+		padding: 3em 2em;
+	}
+
+	.aboutus {
+		&__title {
+			font-size: 2rem;
+		}
+
+		&__text {
+			font-size: 1.6rem;
+			line-height: 2.6rem;
+		}
+
+		&__box {
+			&-text {
+				margin-top: 0.5em;
+			}
+		}
+	}
+
+	.hero-img {
+		&__title {
+			padding: 1.5em 2.4em;
+			font-size: 3.4rem;
+		}
+	}
+
+	.services {
+		&__option {
+			&-heading {
+				font-size: 2.6rem;
+			}
+
+			&-text {
+				font-size: 1.6rem;
+			}
+		}
+	}
+
+	.offer {
+		&__text {
+			font-size: 2.2rem;
+		}
+
+		&__card {
+			height: 475px;
+			max-width: 425px;
+
+			&-info {
+				&-title {
+					font-size: 2.8rem;
+				}
+
+				&-price {
+					font-size: 2.4rem;
+
+					span {
+						font-size: 3.7rem;
+					}
+				}
+
+				&-list {
+					font-size: 1.6rem;
+				}
+			}
+
+			&-btn {
+				padding: 1.5rem 3rem;
+				font-size: 1.8rem;
+			}
+		}
+	}
+
+	.footer {
+		&__boxes {
+			display: flex;
+		}
+
+		&__box-desktop {
+			display: flex;
+			flex-direction: column;
+			align-items: center;
+		}
+
+		&__box-logo {
+			margin-top: 3rem;
+		}
+
+		&__box-title {
+			font-size: 2.2rem;
+			margin-bottom: 1.2rem;
+		}
+
+		&__box {
+			margin: 0 2em;
+			width: 50%;
+
+			&:first-child {
+				width: 50%;
+			}
+		}
+
+		&__box-list {
+			display: flex;
+			flex-direction: column;
+			align-items: center;
+			font-size: 1.3rem;
+			list-style: none;
+		}
+
+		&__box-list-item {
+			margin-bottom: 1em;
+			text-transform: uppercase;
+
+			span {
+				font-weight: bold;
+			}
+		}
+	}
+}

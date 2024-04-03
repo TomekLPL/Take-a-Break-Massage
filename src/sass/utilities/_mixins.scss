@@ -1,0 +1,18 @@
+@use 'colors' as c;
+
+@mixin burgerBtn {
+	position: absolute;
+	left: 0;
+	height: 3px;
+	border-radius: 2px;
+	background-color: c.$white;
+	transition: width 0.3s;
+	content: '';
+}
+
+@mixin heroImages($bgImg) {
+	background-image: c.$hero-gradient, url($bgImg);
+	background-size: cover;
+	background-position: 50% 70%;
+	background-attachment: fixed;
+}

@@ -1,0 +1,208 @@
+@media (min-width: 992px) {
+	html {
+		scroll-padding-top: 101px;
+	}
+
+	.nav {
+		&-desktop {
+			display: block;
+			position: sticky;
+			top: 0;
+			background-color: #fff;
+			box-shadow: 5px 0 10px rgba(50, 50, 50, 0.8);
+			z-index: 1000;
+		}
+
+		&__elements {
+			display: flex;
+			justify-content: space-between;
+			align-items: center;
+		}
+
+		&__brand {
+			&-link {
+				display: flex;
+				padding: 2rem 2rem 1rem;
+				transition: color 0.3s;
+			}
+		}
+
+		&__link {
+			&-desktop {
+				text-decoration: none;
+				font-size: 2.6rem;
+				color: u.$black;
+				padding: 3.65rem 2.55rem;
+				border-radius: 5px;
+				transition: background-color 0.3s, color 0.3s;
+
+				&:hover {
+					color: u.$white;
+					background-color: u.$black;
+				}
+			}
+		}
+	}
+
+	.burger-btn {
+		display: none;
+	}
+
+	.header {
+		&__heading {
+			img {
+				width: 72rem;
+			}
+
+			.lower-title {
+				margin-top: -2rem;
+				font-size: 3.4rem;
+			}
+		}
+	}
+
+	.section-heading {
+		font-size: 3.6rem;
+	}
+
+	.section-padding {
+		padding: 4em 2em;
+	}
+
+	.aboutus {
+		&__box {
+			margin: 7rem 0;
+		}
+
+		&__title {
+			margin-left: -2em;
+			font-size: 2.4rem;
+		}
+
+		&__text {
+			margin-left: -3.5em;
+			letter-spacing: 0.1rem;
+			line-height: 3.4rem;
+		}
+	}
+
+	.hero-img {
+		@include u.heroImages('../img/heroImg.jpg');
+
+		.wrapper {
+			padding: 0 8em;
+		}
+
+		&__title {
+			padding: 1.5em 1em;
+			font-size: 5rem;
+			line-height: 7rem;
+		}
+	}
+
+	.services {
+		&__option {
+			margin: 3em 0;
+
+			&-img {
+				object-fit: cover;
+				height: 300px;
+			}
+
+			&-heading {
+				font-size: 2.8rem;
+			}
+
+			&-text {
+				font-size: 1.8rem;
+			}
+		}
+	}
+
+	.offer {
+		@include u.heroImages('../img/offerBg.jpg');
+
+		&__text {
+			font-size: 2.4rem;
+		}
+
+		&__card {
+			height: 575px;
+			max-width: 475px;
+
+			&-info {
+				&-title {
+					font-size: 3.2rem;
+				}
+
+				&-price {
+					font-size: 2.6rem;
+
+					span {
+						font-size: 4.2rem;
+					}
+				}
+
+				&-list {
+					line-height: 3.5rem;
+					font-size: 2.1rem;
+				}
+			}
+
+			&-btn {
+				padding: 1.75rem 3.5rem;
+				font-size: 2rem;
+			}
+		}
+	}
+
+	.footer {
+		&__box-logo {
+			margin-left: 6rem;
+		}
+	}
+
+	.contact {
+		&__box {
+			margin-top: 4rem;
+			flex-direction: row;
+			align-items: flex-start;
+			border: 1px sold u.$black;
+	
+			&-adress {
+				width: 35%;
+
+				&-title {
+					text-align: center;
+					margin: 1.5rem 0 5rem;
+					font-size: 2.9rem;
+				}
+	
+				&-items {
+	
+					&-item {
+						font-size: 2.4rem;
+						line-height: 5rem;
+	
+						span {
+							font-size: 2.8rem;
+						}
+					}
+				}
+			}
+	
+			&-map {
+				width: 65%;
+				margin-top: 0rem;
+	
+				&-title {
+					font-size: 2.9rem;
+				}
+	
+				iframe {
+					width: 100%;
+				}
+			}
+		}
+	}
+}
