@@ -438,7 +438,7 @@ body {
 	height: 25vh;
 	display: flex;
 	align-items: center;
-	@include u.heroImages('/src/img/takeHeaderSm.jpg');
+	@include u.heroImages('src/img/takeHeaderSm.jpg');
 	background-attachment: scroll;
 
 	&__heading {
