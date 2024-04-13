@@ -125,7 +125,7 @@ body {
 	height: 75vh;
 	display: flex;
 	align-items: center;
-	@include u.heroImages('./dist/img/takeHeaderSm.jpg');
+	@include u.heroImages('/dist/img/takeHeaderSm.jpg');
 	background-attachment: scroll;
 
 	&__heading {
@@ -199,7 +199,7 @@ body {
 .hero-img {
 	display: flex;
 	height: 65vh;
-	@include u.heroImages('./dist/img/heroImg.jpg');
+	@include u.heroImages('/dist/img/heroImg.jpg');
 
 	&__box {
 		display: flex;
@@ -263,7 +263,7 @@ body {
 
 // OFFER
 .offer {
-	@include u.heroImages('./dist/img/offerBgSm.jpg');
+	@include u.heroImages('/dist/img/offerBgSm.jpg');
 
 	.section-heading {
 		color: u.$white;
