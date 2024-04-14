@@ -79,7 +79,7 @@ body {
 		position: fixed;
 		top: 0;
 		width: 100vw;
-		height: 100vh;
+		height: 90vh;
 		display: flex;
 		justify-content: center;
 		align-items: center;
@@ -90,7 +90,7 @@ body {
 		z-index: 100;
 
 		&--active {
-			transform: translateX(-15%);
+			transform: translateX(0%);
 		}
 	}
 
@@ -464,6 +464,72 @@ body {
 			margin-top: -1rem;
 			font-size: 1.6rem;
 			font-weight: 300;
+		}
+	}
+}
+
+//OFFERSUBPAGE
+
+.offerBody {
+	&__box {
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+		width: 100%;
+
+		&-title {
+			font-size: 1.8rem;
+			margin: 3rem 0 1rem;
+		}
+
+		&-additionalInfo {
+			font-size: 1.3rem;
+			margin-top: .8rem;
+			line-height: 1.8rem;
+			margin-right: auto;
+		}
+
+		&-table {
+			&-container {
+				max-width: 100%;
+				overflow-x: auto;
+			}
+		}
+
+		table {
+			margin-bottom: 1rem;
+			background-color: u.$black;
+			border: 1px solid black;
+			border-radius: 10px;
+			width: 100%;
+			font-size: 1.1rem;
+
+			thead {
+				text-transform: uppercase;
+				text-align: center;
+				color: u.$white;
+			}
+
+			tbody {
+				text-align: center;
+				background-color: u.$light-gray;
+			}
+
+			tfoot {
+				font-weight: bold;
+				text-align: center;
+				color: u.$white;
+			}
+
+			th,
+			td {
+				padding: 1rem;
+			}
+
+			tr:nth-of-type(2n) {
+				background-color: u.$zebra-table;
+			}
 		}
 	}
 }
