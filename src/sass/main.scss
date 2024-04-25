@@ -126,7 +126,6 @@ body {
 	display: flex;
 	align-items: center;
 	@include u.heroImages('../img/takeHeaderSm.jpg');
-	background-attachment: scroll;
 
 	&__heading {
 		display: flex;
@@ -201,6 +200,7 @@ body {
 	height: 65vh;
 	@include u.heroImages('../img/heroImg.jpg');
 
+
 	&__box {
 		display: flex;
 		justify-content: center;
@@ -264,6 +264,7 @@ body {
 // OFFER
 .offer {
 	@include u.heroImages('../img/offerBgSm.jpg');
+	background-attachment: scroll;
 
 	.section-heading {
 		color: u.$white;

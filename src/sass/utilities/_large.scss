@@ -88,6 +88,7 @@
 
 	.hero-img {
 		@include u.heroImages('../img/heroImg.jpg');
+		background-attachment: fixed;
 
 		.wrapper {
 			padding: 0 8em;
@@ -106,7 +107,7 @@
 
 			&-img {
 				object-fit: cover;
-				max-height: 475px;
+				max-height: 450px;
 			}
 
 			&-heading {
@@ -123,6 +124,7 @@
 
 	.offer {
 		@include u.heroImages('../img/offerBg.jpg');
+		background-attachment: fixed;
 
 		&__text {
 			font-size: 2.4rem;
