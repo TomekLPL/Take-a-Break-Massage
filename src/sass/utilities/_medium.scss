@@ -47,12 +47,18 @@
 
 	.services {
 		&__option {
+
+			&-img {
+				max-height: 375px;
+			}
+
 			&-heading {
 				font-size: 2.6rem;
 			}
 
 			&-text {
 				font-size: 1.6rem;
+				line-height: 2rem;
 			}
 		}
 	}
