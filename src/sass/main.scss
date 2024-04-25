@@ -170,7 +170,7 @@ body {
 
 	&__img {
 		width: 100%;
-		max-width: 16em;
+		max-width: 240px;
 		margin-bottom: 1em;
 		border-radius: 8px;
 		transition: scale 0.3s;
@@ -434,7 +434,7 @@ body {
 	}
 }
 
-// OFFERHEADER
+//OFFERSUBPAGE
 .offerHeader {
 	height: 25vh;
 	display: flex;
@@ -468,8 +468,6 @@ body {
 	}
 }
 
-//OFFERSUBPAGE
-
 .offerBody {
 	&__box {
 		display: flex;
@@ -485,7 +483,7 @@ body {
 
 		&-additionalInfo {
 			font-size: 1.3rem;
-			margin-top: .8rem;
+			margin-top: 0.8rem;
 			line-height: 1.8rem;
 			margin-right: auto;
 		}
@@ -530,6 +528,12 @@ body {
 			tr:nth-of-type(2n) {
 				background-color: u.$zebra-table;
 			}
+		}
+
+		&-serviceslink {
+			text-decoration: none;
+			color: u.$black;
+			font-weight: bold;
 		}
 	}
 }

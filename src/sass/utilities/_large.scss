@@ -106,14 +106,16 @@
 
 			&-img {
 				object-fit: cover;
-				height: 300px;
+				max-height: 475px;
 			}
 
 			&-heading {
+				margin-bottom: 3rem 0;
 				font-size: 2.8rem;
 			}
 
 			&-text {
+				margin: 1.8rem 0;
 				font-size: 1.8rem;
 			}
 		}
@@ -214,7 +216,7 @@
 		&__box {
 			&-title {
 				font-size: 2.8rem;
-				margin: 5rem 0 1.6rem;
+				margin: 7rem 0 3rem;
 			}
 
 			&-additionalInfo {
@@ -223,7 +225,7 @@
 
 			table {
 				font-size: 2.15rem;
-				margin-bottom: 2rem;
+				margin-bottom: 3rem;
 			}
 		}
 	}
