@@ -151,6 +151,12 @@ body {
 			font-weight: 300;
 		}
 	}
+
+	&__booking {
+		display: flex;
+		justify-content: center;
+		align-items: center;
+	}
 }
 
 // ABOUT US
@@ -199,7 +205,6 @@ body {
 	display: flex;
 	height: 65vh;
 	@include u.heroImages('../img/heroImg.jpg');
-
 
 	&__box {
 		display: flex;
@@ -536,6 +541,13 @@ body {
 			color: u.$black;
 			font-weight: bold;
 		}
+	}
+
+	&__booking {
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		margin-top: 50px;
 	}
 }
 
