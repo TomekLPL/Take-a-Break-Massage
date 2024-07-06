@@ -153,7 +153,10 @@ body {
 	}
 
 	&__booking {
-		text-align: center;
+		&-container {
+			width: 100%;
+			text-align: center;
+		}
 	}
 }
 
@@ -542,8 +545,11 @@ body {
 	}
 
 	&__booking {
-		text-align: center;
-		margin-top: 30px;
+		&-container {
+			margin-top: 40px;
+			width: 100%;
+			text-align: center;
+		}
 	}
 }
 
