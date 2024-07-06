@@ -150,12 +150,9 @@ body {
 			font-size: 1.6rem;
 			font-weight: 300;
 		}
-	}
 
-	&__booking {
-		&-container {
-			width: 100%;
-			text-align: center;
+		.booksy-widget-container {
+			margin-top: 20px;
 		}
 	}
 }
@@ -481,6 +478,7 @@ body {
 		flex-direction: column;
 		justify-content: center;
 		align-items: center;
+		margin-bottom: 20px;
 		width: 100%;
 
 		&-title {
@@ -544,12 +542,8 @@ body {
 		}
 	}
 
-	&__booking {
-		&-container {
-			margin-top: 40px;
-			width: 100%;
-			text-align: center;
-		}
+	.booksy-widget-container {
+		margin-top: 15px;
 	}
 }
 
